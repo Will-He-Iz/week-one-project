@@ -1,0 +1,197 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+ margin:0;
+ padding:0;
+ border:0;
+ outline:0;
+ font-size:100%;
+ vertical-align:baseline;
+ background:transparent;
+}
+body {
+ line-height:1;
+}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+ display:block;
+}
+nav ul {
+ list-style:none;
+}
+blockquote, q {
+ quotes:none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+ content:'';
+ content:none;
+}
+a {
+ margin:0;
+ padding:0;
+ font-size:100%;
+ vertical-align:baseline;
+ background:transparent;
+}
+/* change colours to suit your needs */
+ins {
+ background-color:#ff9;
+ color:#000;
+ text-decoration:none;
+}
+/* change colours to suit your needs */
+mark {
+ background-color:#ff9;
+ color:#000;
+ font-style:italic;
+ font-weight:bold;
+}
+del {
+ text-decoration: line-through;
+}
+abbr[title], dfn[title] {
+ border-bottom:1px dotted;
+ cursor:help;
+}
+table {
+ border-collapse:collapse;
+ border-spacing:0;
+}
+/* change border colour to suit your needs */
+hr {
+ display:block;
+ height:1px;
+ border:0;
+ border-top:1px solid #cccccc;
+ margin:1em 0;
+ padding:0;
+}
+input, select {
+ vertical-align:middle;
+}
+
+
+
+/********* My Style**********/
+
+
+/*setting the width to 100% makes the image 100 percent width of the parent container have to
+set the image to this not the div*/
+
+body {
+  margin: 0px;
+  font-family: "Helvetica", sans-serif;
+}
+
+.hero-image {
+  background-image: url("http://cdn0.lostateminor.com/wp-content/uploads/2016/01/These-photos-show-that-Japan-is-even-more-stunning-at-night81-830x554.jpg");
+  margin: 0 auto;
+  width: 100%;
+  height: 400px;
+  position: relative;
+}
+
+/*********Navigation**********/
+
+ul.navbar {
+  background: rgba(9,43,45,0.85);
+  height: 60px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  font-family: sans-serif;
+  padding-top: 10px;
+}
+
+.nav-link {
+  list-style: none;
+  float: right;
+  padding: 10px;
+  color: #fff;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+/*.content-wrapper {
+  width: 80%;
+  margin: 0 auto;
+  height: 700px;
+  /*background: blue;*/
+}*/
+
+/*.content {
+  /*background: tomato;*/
+  width: 45%;
+  height: 700px;
+  margin: 0 auto;
+  padding: 15px;
+}*/
+
+/*.col-right {
+  float: right;
+}
+
+.col-left {
+  float: left;
+}*/
+
+/*.ic-jp {
+  display: block;
+  margin: 0 auto;
+  height: auto;
+  max-width: 20%;
+}*/
+
+
+.footer {
+  height:50px;
+  width: 100%;
+  background: grey;
+  clear: both;
+}
+/*********Buttons**********/
+/*.btn-main {
+
+<svg width="140px" height="64px" viewBox="122 694 140 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <rect id="Rectangle-Copy-4" stroke="none" fill="#61D9DC" fill-rule="evenodd" x="122" y="694" width="140" height="64" rx="32"></rect>
+    <text id="Button" stroke="none" fill="none" font-family="Helvetica-Light, Helvetica" font-size="18" font-weight="300" fill-opacity="0.87">
+        <tspan x="166" y="731" fill="#FFFFFF">Button</tspan>
+    </text>
+</svg>*/
+
+#btn-cta {
+  position: absolute;
+  top: 50%;
+  left: 70%;
+}
+
+/********* Icon Attribution **********/
+
+/*torii by Alexander Skowalsky from the Noun Project*/
